@@ -64,11 +64,14 @@ This project combines **Natural Language Processing (NLP)** with **Supervised Ma
 ---
 
 ## 📂 Project Structure
-sms-spam-detector
+
+```
+sms-spam-detector/
 │
-├── app.py # Streamlit web application
+├── app.py                    # Streamlit web application
 ├── spam_classification.ipynb # Model training notebook
-├── model.pkl # Trained spam classification model
-├── vectorizer.pkl # TF-IDF vectorizer
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── model.pkl                 # Trained spam classification model
+├── vectorizer.pkl            # TF-IDF vectorizer
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
+```
